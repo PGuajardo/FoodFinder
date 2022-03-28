@@ -52,7 +52,7 @@ def extract_lat_long(adddress_code, data_type = "json"):
 #sample_geocoding = "https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=YOUR_API_KEY"
 
 extract_lat_long("1600 Amphitheatre Parkway, Mountain View, CA")
-#home_address = '8550 Braun Knoll, San Antonio, TX'
+home_address = env.home_address
 #response = map_client.geocode(home_address)
 
 
