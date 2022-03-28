@@ -1,4 +1,5 @@
 import googlemaps #Uses google api
+import env
 
 #import pandas as pd (For dataframe use for saving favorite spots?)
 
@@ -16,6 +17,7 @@ from urllib.parse import urlparse, parse_qsl
 
 
 #Creates client
+API_KEY = env.API_KEY
 map_client = googlemaps.Client(API_KEY)
 
 data_type = "json"
